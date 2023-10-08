@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB PORTAL</title>
+    <link rel="stylesheet" href="./style.css"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+    crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/4a7e7caafd.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <section>
+        <nav class="navbar bg-transperant navbar-expand-lg fixed-top" id="navbar1">
+            <div class="container bg-transparent" id="con1">
+              <h1><a class="navbar-brand fs-3 text-white " href="#"><span id="ps">PLAYSTATION</span> SONY</a></h1>
+              <button class="navbar-toggler shadow-none border-0"
+               type="button" 
+               data-bs-toggle="offcanvas" 
+               data-bs-target="#offcanvasNavbar" 
+               aria-controls="offcanvasNavbar" 
+               aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon toggler-primary" id="navtog"></span>
+              </button>
+              <div class="sidebar offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title text-white bg-primary" id="offcanvasNavbarLabel">MENU</h5>
+                  <button type="button" class="btn-close text-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body" id="navlist">
+                  <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#aboutus">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#ourproduct">
+                        PRODUCT
+                      </a></li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#com">REVIEW</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#conid">CONTACT</a>
+                      </li>
+                  </ul><br>
+                  <h3 class="text-white" id="log"><a href="./pages/log.html" target="_blank">LOGIN</a></h3>
+                </div>
+              </div>
+            </div>
+          </nav>
+           <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner" id="imgcon">
+              <div class="carousel-item active" id="imgcon1">
+                <img src="./img/bgimg.jpg" class="d-block w-100" id="fimg1" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>PLAY STATION 5 CLASSIC EDITION</h5>
+                  <p>Modern world get classic</p>
+                </div>
+              </div>
+              <div class="carousel-item" id="imgcon2">
+                <img src="./img/fhd.jpg" class="a w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>PLAY STATION 5 BLACK EDITION</h5>
+                  <p>For Dark Gamers</p>
+                </div>
+              </div>
+              <div class="carousel-item" id="imgcon3">
+                <img src="./img/ab1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>THUNDER CONNECTION</h5>
+                  <p>JOYSTICK</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section><br><br><br><br>
+    <h2 id="aboutus">KNOW ABOUT US</h2>
+
+    <div class="container" id="about">
+      <div class="row row-md-8" id="row1">
+          <div class="col">
+            <img src="./img/ab4.jpg">
+          </div>
+          <div class="col">
+            <img src="./img/ab3.jpg">
+          </div>
+          <div class="col">
+            <img src="./img/ab5.jpg">
+          </div>
+      </div>
+      <div class="row row" id="row2">
+        <div class="col">
+          <h2 class="high">PLAYSTATION</h2>
+          <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reiciendis eius culpa at, itaque dignissimos molestias minus doloremque sint! Dolores?</P>
+        </div>
+        <div class="col">
+          <h2 class="high">HIGH GRAPHICS</h2>
+          <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reiciendis eius culpa at, itaque dignissimos molestias minus doloremque sint! Dolores?</P>
+        </div>
+        <div class="col">
+          <h2 class="high">SMOOTH GAMING</h2>
+          <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reiciendis eius culpa at, itaque dignissimos molestias minus doloremque sint! Dolores?</P>
+        </div><br><br>
+        </div>
+          <div class="row" id="row3">
+            <div class="col">
+              <h2>SONY PS COMMUNITY</h2>
+          <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi tenetur placeat earum natus dicta aspernatur quam, quod aut, 
+            similique ipsa nesciunt. Corporis inventore deleniti eum iusto cum dolorum quas totam eligendi? Voluptate ipsum reiciendis laborum.
+             Est doloribus et ipsam id debitis rem, fugiat nam optio ab animi, nostrum quibusdam accusamus iste neque sit eum repellendus!</P>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione unde sit voluptatem ex ab dignissimos atque recusandae deserunt 
+              maiores voluptate sunt, repellat vitae aspernatur commodi! Non nulla, est doloremque quaerat aliquid ut maxime debitis odit, quos
+               necessitatibus perferendis incidunt veritatis?</p>
+            </div>
+          </div>
+    </div>
+    </div><br><br><br><br><br>
+    <h2 id="ourproduct">OUR SONY PRODUCTS</h2><br><br>
+      <div class="container-fluid" id="product">
+        <div class="row row-md-8" id="row4">
+          <div class="col">
+            <a href="#"><img src="./img/ps51.jpg"></a>
+            <h4>PLAYSTATION 5</h4>
+          </div>
+          <div class="col">
+            <a href="#"><img src="./img/ps4.jpg"></a>
+            <h4>PLAYSTATION 4</h4>
+          </div>
+          <div class="col">
+            <a href="#"><img src="./img/ps3.jpg"></a>
+            <h4>PLAYSTATION 3</h4>
+          </div>
+        </div><br>
+        <h2 id="access">ACCESSORIES</h2>
+        <div class="row" id="row5">
+          <div class="col">
+            <a href="#"><img src="./img/joy1.jpg"></a>
+            <h4>COMBO</h4>
+          </div>
+          <div class="col">
+            <a href="#"><img src="./img/joy2.jpg"></a>
+            <h4>TECHNO</h4>
+          </div>
+          <div class="col">
+            <a href="#"><img src="./img/joy3.jpg"></a>
+            <h4>CLASSIC</h4>
+          </div>
+        </div>
+      </div><br><br><br>
+      <h2 id="popgm">POPULAR GAMES</h2><br><br>
+        <div class="container" id="games">
+
+          <img src="./img/psg.jpg"><br><br>
+          <p id="gmab">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus error aut, eius fuga 
+            eaque odit nobis deserunt numquam aperiam quisquam dicta velit! Deserunt ratione consectetur
+            possimus ipsum ipsam! Tenetur, voluptatem.<br><br><br>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi consectetur quia amet excepturi tenetur pariatur 
+            impedit blanditiis quod repellendus accusantium non doloribus animi voluptatibus minima ipsam dolore cum nesciunt repellat,
+             culpa delectus, ipsa optio. 
+          </p>
+        </div><br>
+          <div class="container" id="gameslist">
+            <div class="row" id="row6">
+              <div class="col">
+                <a href="#"><img src="./img/gowr.jpg"></a>
+                <h4>GOD OF WAR</h4>
+              </div>
+              <div class="col">
+                <a href="#"><img src="./img/msm.jpg"></a>
+                <h4>SPIDER-MAN</h4>
+              </div>
+              <div class="col">
+                <a href="#"><img src="./img/uc4.jpg"></a>
+                <h4>UNCHARTED4</h4>
+              </div>
+            </div>
+          </div><br><br><br><br><br>
+                 <h3 id="com"> REVIEW AND COMMENTS</h3><br>
+                  <div class="container" id="revi">
+                    <div class="row" id="revrow">
+                      <div class="col" id="elinacol">
+                        <div class="card" id="elinacard">
+                          <img src="./img/p1.jpg" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title" id="elinaname"> Elina</h5>
+                            <p class="card-text">The PS5 is a meaningful evolution of Sony’s achievements with its predecessor. It’s a gorgeously 
+                              accessible machine</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col" id="elinacol2">
+                        <div class="card" id="elinacard">
+                          <img src="./img/p4.jpg" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title" id="elinaname">John</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consecteturadipisicing elit. Autem, ratione  amet laborum minus fuga nesciunt.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col"  id="san">
+                        <div class="card" id="elinacard">
+                          <img src="./img/p2.jpg" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Sanjay</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, maiores.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col" id="elinacol1">
+                        <div class="card" id="elinacard">
+                          <img src="./img/p3.jpg" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title" id="elinaname">San Lee</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus modi aliquid maxime error est! Labore ad deserunt sint</p>
+                          </div>
+                        </div>
+                      </div>
+                   </div>
+          </div><br><br><br>
+          <div class="jumbotron jumbotron-sm" id="cont">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-12">
+                        <h1 class="h1">
+                            Contact us <small>Feel free</small></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="conid">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="well well-sm">
+                        <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name">
+                                        Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">
+                                        Email Address</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                        </span>
+                                        <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">
+                                        Subject</label>
+                                    <select id="subject" name="subject" class="form-control" required="required">
+                                        <option value="na" selected="">Choose One:</option>
+                                        <option value="service">General Customer Service</option>
+                                        <option value="suggestions">Suggestions</option>
+                                        <option value="product">Product Support</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name">
+                                        Message</label>
+                                    <textarea name="message" id="message" class="form-control" rows="5" cols="15" required="required"
+                                        placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                                    Send Message</button>
+                            </div>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <form>
+                    <legend><span class="glyphicon glyphicon-globe"></span> Our office</legend>
+                    <address>
+                        <strong>Twitter, Inc.</strong><br>
+                        795 chennai near<br>
+                        Tamil Nadu, india<br>
+                        <abbr title="Phone">
+                            P:</abbr>
+                        
+                            +91 999888771
+                    </address>
+                    <address>
+                        <strong>SANJAY</strong><br>
+                        <a href="mailto:#">Sanz.last@example.com</a>
+                    </address>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+<div class="container-fluid my-5">
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #1c2331"
+          >
+    <section
+             class="d-flex justify-content-between p-4"
+             style="background-color: #2830c5"
+             >
+      <div class="me-5">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <div>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-github"></i>
+        </a>
+      </div><br>
+    </section>
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold">SONY PLAYSTATION</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut odit sunt atque nulla aliquid totam.
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold">Products</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-white">Contant</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">something about</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Brand</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Regular</a>
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold">Useful links</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-white">Your Account</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Become an Affiliate</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Shipping Rates</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Help</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p><i class="fas fa-home mr-3"></i> Chennai, Tamilnadu, IND</p>
+            <p><i class="fas fa-envelope mr-3"></i> Sanz@example.com</p>
+            <p><i class="fas fa-phone mr-3"></i> +91 997778881</p>
+            <p><i class="fas fa-print mr-3"></i>+91 997778881</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2023 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/"
+         >Sony.com</a
+        >
+    </div>
+  </footer>
+
+</div>
+
+</body>
+</html>
